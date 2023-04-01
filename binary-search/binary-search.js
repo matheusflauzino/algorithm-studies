@@ -22,7 +22,6 @@ var binarySearch = function (list, item) {
     return -1;
 
 };
-console.log(binarySearch([1, 2, 3, 4, 5, 6], 5));
 
 test('should return 4 if input is list = [1,2,3,4,5,6] and item = 5', () => {
     assert.deepEqual(4, binarySearch([1,2,3,4,5,6],5));
